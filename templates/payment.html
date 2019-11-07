@@ -32,7 +32,7 @@
 
 		<nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top ">
 		<div class="container-fluid" align="center">
-		<a class="navbr-brand" href={{ url_for('.index') }}><img src="{{ url_for('static', filename='Images/logo-min.png') }}"></a>
+		<a class="navbr-brand" href={{ url_for('.selector') }}><img src="{{ url_for('static', filename='Images/logo-min.png') }}"></a>
 			<!--<div align="center" class="disp_title">
 				Fire Trade
 			</div>-->
@@ -42,7 +42,7 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href= {{ url_for('.index') }}>
+						<a class="nav-link" href= {{ url_for('.selector') }}>
 							<button class="btn btn-tertiary">
 								<font>Home</font>
 							</button>
@@ -68,12 +68,12 @@
 				{{ msg }}
 			{% endif %}
 		</span>
-    <h4 style="color:#81C525;">Pay $250.00 by clicking on the button below.</h4>
+    <h4 style="color:#81C525;">Pay $1.00 by clicking on the button below.</h4>
 		<p style="color:#B7D9A3;">
-			for payment use
-			card no : 4242 4242 4242 4242
-			expr date: 01/23
-			cvv : 123
+			for payment use</br>
+			card no : 4242 4242 4242 4242</br>
+			expr date: 01/23</br>
+			cvv : 123</br>
 		</p>
     <form action="{{ url_for('pay') }}" method="POST">
         <script src="https://checkout.stripe.com/checkout.js"
@@ -82,7 +82,7 @@
                 data-description="A payment for Fire Trade project"
                 data-name="FireTrade.com"
                 data-image=""
-                data-amount="25000">
+                data-amount="100">
         </script>
     </form>
   </div>
