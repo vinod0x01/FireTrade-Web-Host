@@ -7,7 +7,7 @@ A deployable Flask based ML application
 > * activate the virtual environment.
 > * _clone or download the project_
 ```bash
-git clone https://github.com/pranjalchaubey/Flask-ML-Application.git 
+git clone https://github.com/raita0100/FireTrade-Web-Host.git 
 ```
 > * change directory to project directory
 
@@ -22,7 +22,7 @@ Linux
 export FLASK_APP=app.py
 flask run
 ```
-Windows 
+Windows
 ```bash
 set FLASK_APP=app.py
 flask run
