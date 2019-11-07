@@ -37,7 +37,7 @@
 
 		<script src="{{ url_for('static', filename='scripts/select_data.js') }}"></script>
 
-		<div class="se-pre-con" id="loader"></div>
+
 
 
 		<nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top ">
@@ -84,12 +84,14 @@
 					<option value="{{ i }}">{{ itms[i] }}</option>
 				{% endfor %}
 			</select>
-		<div class="row-padding mt-5">
+		<div class="row-padding mt-5" id="btn_sub" style="display: block;">
 			<button type="button" name="button_submit" class="btn btn-primary" onclick="select_items()">Submit</button>
 		</div>
 		<!--<div class="row padding mt-5" id="load_btn" style="display: none;z-index: -1;">
 			<h4><font color="#ffffff">Fire Trade AI Waking Up..........</h4>
 		</div>-->
+
 	</div>
+	<div class="se-pre-con" id="loader"></div>
 </body>
 </html>

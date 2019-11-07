@@ -10,7 +10,9 @@ function select_items() {
     return;
   }
 
-  $("#load_btn").css("display", "block");
+  $("#btn_sub").css("display", "none");
+
+  //$("#load_btn").css("display", "block");
   $("#loader").css("display", "block");
 
   x.forEach(function(val, index) {
