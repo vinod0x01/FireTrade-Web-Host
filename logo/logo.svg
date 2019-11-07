@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="502px" height="58px" viewBox="0 0 502 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_v2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LOGO" transform="translate(2.000000, 2.000000)" stroke-width="3">
+            <path d="M56,1 L56,53" id="I" stroke="#B7D9A3" stroke-linecap="round"></path>
+            <g id="T" transform="translate(215.000000, 0.000000)" stroke="#2E8F0D" stroke-linecap="round">
+                <path d="M0,1 L40,1" id="Horz"></path>
+                <path d="M20,1 L20,53" id="Vert"></path>
+            </g>
+            <g id="E" transform="translate(146.000000, 0.000000)" stroke="#B7D9A3" stroke-linecap="round">
+                <path d="M0,1 L32,1" id="Line-Copy-3"></path>
+                <path d="M0,26 L32,26" id="Line-Copy-4"></path>
+                <path d="M0,53 L32,53" id="Line-Copy-5"></path>
+            </g>
+            <g id="E-Last" transform="translate(466.000000, 0.000000)" stroke="#2E8F0D" stroke-linecap="round">
+                <path d="M0,1 L32,1" id="Line-Copy-3"></path>
+                <path d="M0,26 L32,26" id="Line-Copy-4"></path>
+                <path d="M0,53 L32,53" id="Line-Copy-5"></path>
+            </g>
+            <g id="F" stroke="#B7D9A3" stroke-linecap="round">
+                <path d="M1,28 L1,53" id="Vert"></path>
+                <path d="M2,28 L33.5,28" id="Horz-Mid"></path>
+                <path d="M1,1 L33,1" id="Horz-Top"></path>
+            </g>
+            <g id="R" transform="translate(83.000000, 0.000000)" stroke="#B7D9A3">
+                <path d="M1,1 L23,1" id="Line-Copy-6" stroke-linecap="round"></path>
+                <path d="M1,35 L1,53" id="I-Copy" stroke-linecap="round"></path>
+                <path d="M26.5,35 L39,53" id="I-Copy-2" stroke-linecap="round"></path>
+                <path d="M23,35 C32.3888407,35 40,27.3888407 40,18 C40,8.61115925 32.3888407,1 23,1" id="Oval"></path>
+                <path d="M1,35 L23,35" id="Line-Copy-7" stroke-linecap="round"></path>
+            </g>
+            <g id="R-Copy" transform="translate(272.000000, 0.000000)" stroke="#2E8F0D">
+                <path d="M1,1 L23,1" id="Line-Copy-6" stroke-linecap="round"></path>
+                <path d="M1,35 L1,53" id="I-Copy" stroke-linecap="round"></path>
+                <path d="M26.5,35 L39,53" id="I-Copy-2" stroke-linecap="round"></path>
+                <path d="M23,35 C32.3888407,35 40,27.3888407 40,18 C40,8.61115925 32.3888407,1 23,1" id="Oval"></path>
+                <path d="M1,35 L23,35" id="Line-Copy-7" stroke-linecap="round"></path>
+            </g>
+            <g id="D" transform="translate(394.000000, 0.000000)" stroke="#2E8F0D">
+                <path d="M1,28.4948985 L1,53" id="I-Copy-3" stroke-linecap="round"></path>
+                <path d="M1,1 L24,1" id="Line-Copy-8" stroke-linecap="round"></path>
+                <path d="M1,53 L24,53" id="Line-Copy-9" stroke-linecap="round"></path>
+                <path d="M24,53 C38.3594035,53 50,41.3594035 50,27 C50,12.6405965 38.3594035,1 24,1" id="Oval-Copy"></path>
+            </g>
+            <g id="A" transform="translate(327.000000, 1.000000)" stroke="#2E8F0D" stroke-linecap="round">
+                <path d="M0,52 L24,0" id="Line"></path>
+                <path d="M24,52 L48,0" id="Line-Copy" transform="translate(36.000000, 26.000000) scale(-1, 1) translate(-36.000000, -26.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

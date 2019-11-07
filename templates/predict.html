@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fire Trade</title>
+		<link rel="icon" type="image/png" href="{{ url_for('static', filename='Images/logo.png') }}">
+
+		<!-- bootstrap links -->
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+		<!--Style sheet link-->
+		<link href="{{ url_for('static', filename = 'css/style.css') }}" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+
+
+
+	</head>
+
+	<body style="background-color: #19191E">
+    <!-- scripts-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<script src="{{ url_for('static', filename='scripts/select_data.js') }}"></script>
+		<!-- Navigation -->
+
+		<nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top ">
+		<div class="container-fluid" align="center">
+		<a class="navbr-brand" href={{ url_for('.index') }}><img src="{{ url_for('static', filename='Images/logo-min.png') }}"></a>
+			<!--<div align="center" class="disp_title">
+				Fire Trade
+			</div>-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="">
+							<button class="btn btn-tertiary">
+								<font>Home</font>
+							</button>
+						</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href= {% if rec %}{{ rec }}{% endif %}>
+							<button class="btn btn-tertiary">
+								<font>Recipt</font>
+							</button>
+						</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href= {{ url_for('.logout') }}>
+							<button class="btn btn-tertiary">
+								<font>Logout</font>
+							</button>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</nav>
+
+<!-- Navigation end-->
+	<div class="container-fluid padding mt-2" align="center">
+    <div class="row">
+    <div class="col-12">
+
+      <h3 class="display-5"><font color="#A569BD">Fire Trade AI Recommendations for Tomorrow's Close</font></h3>
+        <hr>
+      </br>
+    </div>
+    </div>
+		<div class="row" style="margin-top: -3rem;">
+			<div class="col-sm-12 col-md-4">
+
+			</div>
+			<div class="col-sm-12 col-md-4">
+				<h5 class="">
+					<font color="#ffffff" face="Comic Sans MS">
+	      	{% if msg %}
+	        	{{ msg }}
+	      	{% endif %}
+				</font>
+				</h5>
+				<hr>
+			</div>
+			<div class="col-sm-12 col-md-4">
+
+			</div>
+		</div>
+    <!--Display the table data-->
+      <div class="row padding mt-3 ml-4 mr-4">
+          <table class="table table-hover table-striped" style="background: #EAEDED;">
+            <thead>
+              <tbody>
+                {% if s_list %}
+                  {% for i in s_list.keys() %}
+                    <tr>
+					  <th scope="row">{{ s_list[i] }}</th>
+                      <td>{{ pred[i] }}</td>
+                    </tr>
+                  {% endfor %}
+                {% endif %}
+              </tbody>
+            </thead>
+
+          </table>
+      </div>
+	</div>
+</body>
+</html>
