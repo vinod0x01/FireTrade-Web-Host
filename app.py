@@ -14,14 +14,14 @@ stripe.api_key = STRIPE_SECRET_KEY
 
 #defining the firebase configurations from created app int he firebase
 config = {
-    "apiKey": "AIzaSyDr-4uZw1snFiOg26eQC7VOsvUPYCB3zVU",
-    "authDomain": "test-72921.firebaseapp.com",
-    "databaseURL": "https://test-72921.firebaseio.com",
-    "projectId": "test-72921",
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
     "storageBucket": "",
-    "messagingSenderId": "433457544866",
-    "appId": "1:433457544866:web:4a5047b20c2e1a85f4a1fb",
-    "measurementId": "G-11B51GZLZ0"
+    "messagingSenderId": "",
+    "appId": "",
+    "measurementId": ""
   }
 
 #initialising the firebase authentiCATION methods
